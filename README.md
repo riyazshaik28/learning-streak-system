@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Daily Learning Streak Tracker 📚🔥
 
-## Getting Started
+A simple full-stack web application that helps students maintain consistent study habits by tracking their daily learning streak.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Mark **"I Studied Today"**
+- Track **current study streak**
+- View **total study days**
+- See **last studied date**
+- View **study history**
+- Prevent duplicate entries for the same day
+- Clean and responsive UI using Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js (App Router)**
+- **TypeScript**
+- **Tailwind CSS**
+- **Local Storage for data persistence**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How It Works
 
-## Learn More
+1. When the user clicks **"I Studied Today"**, today's date is saved in the browser.
+2. The system calculates the **current streak** based on consecutive study days.
+3. If a day is skipped, the streak **resets to 1**.
+4. Users can view their **study history** on the history page.
 
-To learn more about Next.js, take a look at the following resources:
+## Example
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Current Streak: 3 days
+Total Study Days: 5
+Last Studied: 2026-03-14
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Pages
 
-## Deploy on Vercel
+- **Dashboard** – Shows streak stats and study button
+- **History Page** – Displays all previous study dates
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The project is deployed on **Vercel**.
+
+## Live Demo
+
+
+## Author
+
+Riyaz
