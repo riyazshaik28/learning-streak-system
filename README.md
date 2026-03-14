@@ -42,7 +42,7 @@ Last Studied: 2026-03-14
 The project is deployed on **Vercel**.
 
 ## Live Demo
-
+learning-streak-system-git-main-shaik-riyazs-projects-43595d9c.vercel.app
 
 ## Author
 
